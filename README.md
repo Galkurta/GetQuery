@@ -24,6 +24,10 @@ nano .env
 
 > API_HASH=your_telegram_api_hash
 
+#### Create session folder
+```
+mkdir session
+```
 ### Usage
 #### Run the script:
 ```
