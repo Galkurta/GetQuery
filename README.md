@@ -28,6 +28,10 @@ nano .env
 ```
 mkdir session
 ```
+#### Create data folder
+```
+mkdir data
+```
 ### Usage
 #### Run the script:
 ```
@@ -40,18 +44,7 @@ You will be prompted to choose an option:
 
 Follow the prompts to enter your phone number and other necessary information.
 
-### Customization
-#### Change Bot Username if you want to change the bot's username (without @), you can do this on line 114 of main.js:
-
-> const peer = await client.getInputEntity('abcde'); // Replace 'abcde' with your bot's username
-
-> Simply replace 'abcde' with the desired bot's username (without the @ symbol).
-
-#### Change Bot URL if you need to change the bot's URL, modify line 116 of main.js:
-
-> url: "https://doodstream.com/", // Replace this with your bot's URL
-
-> Replace the URL "https://doodstream.com/" with the URL you want the script to use when interacting with the bot.
+### Customization Full on Bot Telegram
 
 License
 This project is licensed under the MIT License - see the LICENSE file for details.
