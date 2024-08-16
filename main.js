@@ -87,7 +87,7 @@ class Nookie {
                         return;
                     }
 
-                    this.bot.sendMessage(chatId, '📝 Enter a name for this session (or leave blank for a timestamp):');
+                    this.bot.sendMessage(chatId, '📝 Enter a name for this session:');
                     this.bot.once('message', async (msg) => {
                         const sessionName = msg.text || null;
 
@@ -626,5 +626,4 @@ class Nookie {
 }
 
 console.log('🤖 Bot running...');
-
 const nookie = new Nookie();
